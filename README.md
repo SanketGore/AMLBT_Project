@@ -19,8 +19,8 @@ We train a neural network to predict a company's price-to-book ratio (P/B) from 
 | MLP, average of 10 seeds | 0.705 | | |
 | Naive: last year's own P/B | 0.812 | 0.455 | 0.931 |
 
-1. **The tuned network explains valuations best among the fundamental models**, ahead of XGBoost by about 0.02 in R² and of Ridge by 0.14. Last year's own P/B is still more accurate, which tells us that valuations are persistent and that much of a stock's multiple reflects things the accounts do not capture.
-2. **Tuning matters more than the choice of algorithm.** Across 60 random settings, validation RMSE ranged from 0.587 to 0.940, against 0.750 for the best Ridge model, and the median setting (0.673) was well short of the best. The winner was two hidden layers (32-16), ReLU, the L-BFGS optimiser and a strong L2 penalty (alpha = 7.08). Architecture moved the error most, followed by activation; the optimiser on its own barely mattered.
+1. **No model beats last year's own P/B** (R² 0.812, scored on the 860 rows that have a previous year). Valuations are persistent, and much of a stock's multiple reflects things the accounts do not capture. Among the fundamentals models, the MLP (0.701 in the reported run, 0.687 averaged over seeds) and XGBoost (0.683) are level within seed noise; both are well ahead of Ridge (0.564). The MLP also had the largest tuning budget (30 settings per step against 4–8 for the tree models).
+2. **Tuning matters as much as the choice of algorithm.** Across 60 random settings, validation RMSE ranged from 0.587 to 0.940, against 0.750 for the best Ridge model, and the median setting (0.673) was well short of the best. The winner was two hidden layers (32-16), ReLU, the L-BFGS optimiser and a strong L2 penalty (alpha = 7.08). Architecture moved the error most, followed by activation; the optimiser on its own barely mattered.
 
    ![Tuning study](outputs/figures/fig4_tuning_study.png)
 
@@ -28,12 +28,12 @@ We train a neural network to predict a company's price-to-book ratio (P/B) from 
 
    ![Seed sensitivity](outputs/figures/fig5_seed_sensitivity.png)
 
-4. **Fundamentals carry the signal.** With accounting inputs alone the MLP reaches R² = 0.630; with market inputs alone (momentum, volatility, beta) it reaches only 0.053.
-5. **For companies the model has never seen, XGBoost generalises better** (R² 0.610 against 0.577 for the MLP and 0.560 for Ridge, five-fold leave-company-out). This is the relevant test for valuing an unlisted business.
+4. **Fundamentals carry the signal.** With accounting inputs alone the MLP reaches R² = 0.630 (XGBoost 0.643); with market inputs alone (momentum, volatility, beta) it reaches only 0.053. The single-group runs used 15 MLP settings per step against 30 for the combined run, so part of the combined model's gain may come from tuning.
+5. **For companies the model has never seen, XGBoost generalises better** (R² 0.610 against 0.577 for the MLP and 0.560 for Ridge, five-fold leave-company-out). This is the realistic accuracy for valuing an unlisted business (a typical error of about 1.9 times P/B), and it is optimistic, because hyperparameters were tuned on the full sample.
 
    ![Fair vs actual P/B](outputs/figures/fig3_fair_vs_actual.png)
 
-6. **Mispricing does not predict returns.** Sorting stocks each June by how far they trade below the MLP's fair value, the cheapest fifth returned 35.1% a year on average and the most expensive fifth 34.7%. The mean rank correlation (IC) was −0.06 (t = −0.86). A fair-value model is useful for explaining and benchmarking valuations, not as a stock-picking rule.
+6. **Mispricing does not predict returns.** Sorting stocks each June by how far they trade below the MLP's fair value, the cheapest fifth returned 35.1% a year on average and the most expensive fifth 34.7%. The mean rank correlation (IC) was −0.06 (t = −0.86). Seven yearly observations cannot rule out a small effect. A fair-value model is useful for explaining and benchmarking valuations, not as a stock-picking rule.
 
    ![Backtest](outputs/figures/fig8_backtest.png)
 
