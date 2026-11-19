@@ -1,0 +1,141 @@
+{
+  "fingerprint": "cc76887faf6698658642e512b1dd01c580ae89ef1fbefd8db667f83f889be888",
+  "sample": {
+    "company_years": 1102,
+    "companies": 141,
+    "formation_years": "2017-2025",
+    "test_years": "2019-2025",
+    "walk_forward_predictions": 879
+  },
+  "walk_forward": {
+    "Ridge": {
+      "oos_r2": 0.5644,
+      "rmse": 0.696,
+      "mean_rank_corr": 0.7871,
+      "n": 879
+    },
+    "RandomForest": {
+      "oos_r2": 0.6412,
+      "rmse": 0.6316,
+      "mean_rank_corr": 0.8264,
+      "n": 879
+    },
+    "XGBoost": {
+      "oos_r2": 0.683,
+      "rmse": 0.5936,
+      "mean_rank_corr": 0.8428,
+      "n": 879
+    },
+    "MLP": {
+      "oos_r2": 0.7009,
+      "rmse": 0.5767,
+      "mean_rank_corr": 0.8416,
+      "n": 879
+    },
+    "Naive (last year)": {
+      "oos_r2": 0.8118,
+      "rmse": 0.4546,
+      "mean_rank_corr": 0.9313,
+      "n": 860
+    }
+  },
+  "seed_sensitivity_oos_r2": {
+    "RandomForest": {
+      "mean": 0.6414,
+      "std": 0.0022,
+      "min": 0.638,
+      "max": 0.6439
+    },
+    "XGBoost": {
+      "mean": 0.6783,
+      "std": 0.0041,
+      "min": 0.6706,
+      "max": 0.684
+    },
+    "MLP": {
+      "mean": 0.6868,
+      "std": 0.0067,
+      "min": 0.677,
+      "max": 0.6966
+    },
+    "Ridge": {
+      "mean": 0.5644,
+      "std": 0.0,
+      "min": 0.5644,
+      "max": 0.5644
+    },
+    "MLP seed-ensemble": {
+      "mean": 0.7046,
+      "std": null,
+      "min": null,
+      "max": null
+    }
+  },
+  "ablation_oos_r2": {
+    "Fundamentals only": {
+      "Ridge": 0.5295,
+      "XGBoost": 0.6433,
+      "MLP": 0.6301
+    },
+    "Market only": {
+      "Ridge": 0.064,
+      "XGBoost": 0.0846,
+      "MLP": 0.0526
+    },
+    "Fundamentals + market": {
+      "Ridge": 0.5644,
+      "XGBoost": 0.683,
+      "MLP": 0.7009
+    }
+  },
+  "unseen_companies": {
+    "Ridge": {
+      "r2": 0.5597,
+      "rmse": 0.6763
+    },
+    "XGBoost": {
+      "r2": 0.6097,
+      "rmse": 0.6367
+    },
+    "MLP": {
+      "r2": 0.577,
+      "rmse": 0.6628
+    }
+  },
+  "best_mlp_full_sample": {
+    "architecture": "32-16",
+    "activation": "relu",
+    "solver": "lbfgs",
+    "alpha": 7.0804,
+    "cv_rmse": 0.5873
+  },
+  "backtest_mean_2019_2025": {
+    "MLP": {
+      "ic": -0.0602,
+      "cheapest_q": 0.3508,
+      "q2": 0.3417,
+      "q3": 0.2613,
+      "q4": 0.336,
+      "dearest_q": 0.3475,
+      "cheap_minus_dear": 0.0033,
+      "equal_weight_all": 0.3275,
+      "nifty50": 0.1241,
+      "ic_t_stat": -0.8616,
+      "years_ic_positive": 2.0
+    },
+    "Ridge": {
+      "ic": 0.0337,
+      "cheapest_q": 0.4469,
+      "q2": 0.3026,
+      "q3": 0.2479,
+      "q4": 0.28,
+      "dearest_q": 0.3564,
+      "cheap_minus_dear": 0.0905,
+      "equal_weight_all": 0.3275,
+      "nifty50": 0.1241,
+      "ic_t_stat": 0.4341,
+      "years_ic_positive": 4.0
+    }
+  },
+  "tolerance_note": "With the original CMIE files and the library versions in outputs/environment.json the fingerprint should match exactly. With rebuilt public data expect R2 within about +/-0.05 and the same model ordering; the backtest IC is noisy and may change sign."
+}

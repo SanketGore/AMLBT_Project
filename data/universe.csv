@@ -1,0 +1,148 @@
+nse_symbol,company_name,isin,nse_basic_industry,nse_listing_date,study_sector,excluded_as_financial,years_in_study_sample
+ABB,A B B India Ltd.,INE117A01022,Heavy Electrical Equipment,03-11-1994,Capital goods,False,9
+APLAPOLLO,A P L Apollo Tubes Ltd.,INE702C01027,Iron & Steel Products,14-12-2011,Metals & mining,False,5
+ADANIENT,Adani Enterprises Ltd.,INE423A01024,Trading - Minerals,12-05-1995,Metals & mining,False,9
+ADANIGREEN,Adani Green Energy Ltd.,INE364U01010,Power Generation,18-06-2018,Power,False,7
+ADANIPORTS,Adani Ports & Special Economic Zone Ltd.,INE742F01042,Port & Port services,27-11-2007,Telecom & transport,False,9
+ADANIPOWER,Adani Power Ltd.,INE814H01029,Integrated Power Utilities,20-08-2009,Power,False,9
+ATGL,Adani Total Gas Ltd.,INE399L01023,LPG/CNG/PNG/LNG Supplier,05-11-2018,Oil & gas,False,7
+AMBUJACEM,Ambuja Cements Ltd.,INE079A01024,Cement & Cement Products,03-11-1994,Materials & chemicals,False,9
+APARINDS,Apar Industries Ltd.,INE372A01015,Other Electrical Equipment,10-05-1995,Capital goods,False,3
+APOLLOHOSP,Apollo Hospitals Enterprise Ltd.,INE437A01024,Hospital,23-05-1995,Pharma & healthcare,False,9
+ASHOKLEY,Ashok Leyland Ltd.,INE208A01029,Commercial Vehicles,03-11-1994,Auto,False,9
+ASIANPAINT,Asian Paints Ltd.,INE021A01026,Paints,03-11-1994,Consumer discretionary,False,9
+ASTRAL,Astral Ltd.,INE006I01046,Plastic Products - Industrial,20-03-2007,Capital goods,False,9
+AUROPHARMA,Aurobindo Pharma Ltd.,INE406A01037,Pharmaceuticals,19-10-1995,Pharma & healthcare,False,9
+DMART,Avenue Supermarts Ltd.,INE192R01011,Diversified Retail,21-03-2017,Consumer discretionary,False,9
+BAJAJ-AUTO,Bajaj Auto Ltd.,INE917I01010,2/3 Wheelers,26-05-2008,Auto,False,9
+BDL,Bharat Dynamics Ltd.,INE171Z01026,Aerospace & Defense,23-03-2018,Capital goods,False,8
+BEL,Bharat Electronics Ltd.,INE263A01024,Aerospace & Defense,09-11-1994,Capital goods,False,9
+BHARATFORG,Bharat Forge Ltd.,INE465A01025,Auto Components & Equipments,03-11-1994,Auto,False,9
+BHEL,Bharat Heavy Electricals Ltd.,INE257A01026,Heavy Electrical Equipment,03-11-1994,Capital goods,False,9
+BPCL,Bharat Petroleum Corpn. Ltd.,INE029A01011,Refineries & Marketing,29-11-1994,Oil & gas,False,9
+BHARTIARTL,Bharti Airtel Ltd.,INE397D01024,Telecom - Cellular & Fixed line services,15-02-2002,Telecom & transport,False,9
+GROWW,Billionbrains Garage Ventures Ltd.,INE0HOQ01053,Stockbroking & Allied,12-11-2025,Other,True,0
+BIOCON,Biocon Ltd.,INE376G01013,Pharmaceuticals,07-04-2004,Pharma & healthcare,False,9
+BLUESTARCO,Blue Star Ltd.,INE472A01039,Household Appliances,09-01-1995,Consumer discretionary,False,8
+BOSCHLTD,Bosch Ltd.,INE323A01026,Auto Components & Equipments,03-11-1994,Auto,False,9
+BRITANNIA,Britannia Industries Ltd.,INE216A01030,Packaged Foods,03-11-1994,FMCG,False,9
+CGPOWER,C G Power & Indl. Solutions Ltd.,INE067A01029,Heavy Electrical Equipment,15-11-1994,Capital goods,False,5
+CIPLA,Cipla Ltd.,INE059A01026,Pharmaceuticals,03-11-1994,Pharma & healthcare,False,9
+COCHINSHIP,Cochin Shipyard Ltd.,INE704P01025,Ship Building & Allied Services,11-08-2017,Capital goods,False,4
+COFORGE,Coforge Ltd.,INE591G01025,Computers - Software & Consulting,30-08-2004,IT,False,8
+COLPAL,Colgate-Palmolive (India) Ltd.,INE259A01022,Personal Care,03-11-1994,FMCG,False,9
+CONCOR,Container Corpn. Of India Ltd.,INE111A01025,Logistics Solution Provider,22-05-1997,Telecom & transport,False,9
+CUMMINSIND,Cummins India Ltd.,INE298A01020,"Compressors, Pumps & Diesel Engines",03-11-1994,Capital goods,False,9
+DLF,D L F Ltd.,INE271C01023,"Residential, Commercial Projects",05-07-2007,Real estate,False,9
+DABUR,Dabur India Ltd.,INE016A01026,Personal Care,03-11-1994,FMCG,False,9
+DIVISLAB,Divi'S Laboratories Ltd.,INE361B01024,Pharmaceuticals,12-03-2003,Pharma & healthcare,False,9
+DIXON,Dixon Technologies (India) Ltd.,INE935N01020,Consumer Electronics,18-09-2017,Consumer discretionary,False,6
+DRREDDY,Dr. Reddy'S Laboratories Ltd.,INE089A01031,Pharmaceuticals,03-11-1994,Pharma & healthcare,False,9
+EICHERMOT,Eicher Motors Ltd.,INE066A01021,2/3 Wheelers,08-02-1995,Auto,False,9
+ETERNAL,Eternal Ltd.,INE758T01015,E-Retail/ E-Commerce,23-07-2021,Consumer discretionary,False,4
+EXIDEIND,Exide Industries Ltd.,INE302A01020,Auto Components & Equipments,02-01-1995,Auto,False,9
+NYKAA,F S N E-Commerce Ventures Ltd.,INE388Y01029,E-Retail/ E-Commerce,10-11-2021,Consumer discretionary,False,4
+FORTIS,Fortis Healthcare Ltd.,INE061F01013,Hospital,09-05-2007,Pharma & healthcare,False,9
+GAIL,G A I L (India) Ltd.,INE129A01019,Gas Transmission/Marketing,02-04-1997,Oil & gas,False,9
+GVT&D,G E Vernova T & D India Ltd.,INE200A01026,Heavy Electrical Equipment,15-12-1994,Capital goods,False,6
+GMRAIRPORT,G M R Airports Ltd.,INE776C01039,Airport & Airport services,21-08-2006,Telecom & transport,False,2
+GLENMARK,Glenmark Pharmaceuticals Ltd.,INE935A01035,Pharmaceuticals,10-02-2000,Pharma & healthcare,False,9
+GODFRYPHLP,Godfrey Phillips India Ltd.,INE260B01028,Cigarettes & Tobacco Products,05-12-1994,FMCG,False,7
+GODREJCP,Godrej Consumer Products Ltd.,INE102D01028,Personal Care,20-06-2001,FMCG,False,9
+GRASIM,Grasim Industries Ltd.,INE047A01021,Cement & Cement Products,03-11-1994,Materials & chemicals,False,9
+HCLTECH,H C L Technologies Ltd.,INE860A01027,Computers - Software & Consulting,11-01-2000,IT,False,9
+HAVELLS,Havells India Ltd.,INE176B01034,Consumer Electronics,21-03-2001,Consumer discretionary,False,9
+HEROMOTOCO,Hero Motocorp Ltd.,INE158A01026,2/3 Wheelers,25-01-1995,Auto,False,9
+HINDALCO,Hindalco Industries Ltd.,INE038A01020,Aluminium,03-11-1994,Metals & mining,False,9
+HINDCOPPER,Hindustan Copper Ltd.,INE531E01026,Copper,08-01-2010,Metals & mining,False,7
+HINDPETRO,Hindustan Petroleum Corpn. Ltd.,INE094A01015,Refineries & Marketing,03-11-1994,Oil & gas,False,9
+HINDUNILVR,Hindustan Unilever Ltd.,INE030A01027,Diversified FMCG,03-11-1994,FMCG,False,9
+HINDZINC,Hindustan Zinc Ltd.,INE267A01025,Zinc,03-11-1994,Metals & mining,False,8
+POWERINDIA,Hitachi Energy India Ltd.,INE07Y701011,Heavy Electrical Equipment,30-03-2020,Capital goods,False,5
+HYUNDAI,Hyundai Motor India Ltd.,INE0V6F01027,Passenger Cars & Utility Vehicles,22-10-2024,Auto,False,1
+ITC,I T C Ltd.,INE154A01025,Diversified FMCG,03-11-1994,FMCG,False,9
+INDHOTEL,Indian Hotels Co. Ltd.,INE053A01029,Hotels & Resorts,03-11-1994,Consumer discretionary,False,9
+IOC,Indian Oil Corpn. Ltd.,INE242A01010,Refineries & Marketing,19-10-1995,Oil & gas,False,9
+IRCTC,Indian Railway Catering & Tourism Corpn. Ltd.,INE335Y01020,"Tour, Travel Related Services",14-10-2019,Consumer discretionary,False,5
+INDUSTOWER,Indus Towers Ltd.,INE121J01017,Telecom - Infrastructure,28-12-2012,Telecom & transport,False,9
+NAUKRI,Info Edge (India) Ltd.,INE663F01032,Internet & Catalogue Retail,21-11-2006,Consumer discretionary,False,9
+INFY,Infosys Ltd.,INE009A01021,Computers - Software & Consulting,03-11-1994,IT,False,9
+INDIGO,Interglobe Aviation Ltd.,INE646L01027,Airline,10-11-2015,Telecom & transport,False,5
+JSWSTEEL,J S W Steel Ltd.,INE019A01038,Iron & Steel,14-06-1995,Metals & mining,False,9
+JINDALSTEL,Jindal Steel Ltd.,INE749A01030,Iron & Steel,22-09-1999,Metals & mining,False,9
+JUBLFOOD,Jubilant Foodworks Ltd.,INE797F01020,Restaurants,08-02-2010,Consumer discretionary,False,9
+KALYANKJIL,Kalyan Jewellers India Ltd.,INE303R01014,"Gems, Jewellery And Watches",26-03-2021,Consumer discretionary,False,5
+KEI,Kei Industries Ltd.,INE878B01027,Cables - Electricals,23-03-2006,Capital goods,False,5
+LT,Larsen & Toubro Ltd.,INE018A01030,Civil Construction,03-11-1994,Capital goods,False,9
+LAURUSLABS,Laurus Labs Ltd.,INE947Q01028,Pharmaceuticals,19-12-2016,Pharma & healthcare,False,7
+LENSKART,Lenskart Solutions Ltd.,INE956O01016,Speciality Retail,10-11-2025,Consumer discretionary,False,0
+LODHA,Lodha Developers Ltd.,INE670K01029,"Residential, Commercial Projects",19-04-2021,Real estate,False,5
+LTM,Ltm Ltd.,INE214T01019,Computers - Software & Consulting,21-07-2016,IT,False,9
+LUPIN,Lupin Ltd.,INE326A01037,Pharmaceuticals,30-11-1994,Pharma & healthcare,False,9
+MRF,M R F Ltd.,INE883A01011,Tyres & Rubber Products,19-01-1995,Auto,False,9
+M&M,Mahindra & Mahindra Ltd.,INE101A01026,Passenger Cars & Utility Vehicles,03-11-1994,Auto,False,9
+MANKIND,Mankind Pharma Ltd.,INE634S01028,Pharmaceuticals,09-05-2023,Pharma & healthcare,False,3
+MARICO,Marico Ltd.,INE196A01026,Edible Oil,01-05-1996,FMCG,False,9
+MARUTI,Maruti Suzuki India Ltd.,INE585B01010,Passenger Cars & Utility Vehicles,09-07-2003,Auto,False,9
+MAXHEALTH,Max Healthcare Institute Ltd.,INE027H01010,Hospital,21-08-2020,Pharma & healthcare,False,5
+MAZDOCK,Mazagon Dock Shipbuilders Ltd.,INE249Z01020,Ship Building & Allied Services,12-10-2020,Capital goods,False,3
+MEESHO,Meesho Ltd.,INE0VDM01015,E-Retail/ E-Commerce,10-12-2025,Consumer discretionary,False,0
+MPHASIS,Mphasis Ltd.,INE356A01018,Computers - Software & Consulting,13-09-1996,IT,False,9
+NHPC,N H P C Ltd.,INE848E01016,Power Generation,01-09-2009,Power,False,9
+NLCINDIA,N L C India Ltd.,INE589A01014,Power Generation,23-08-2000,Power,False,9
+NMDC,N M D C Ltd.,INE584A01023,Industrial Minerals,03-03-2008,Metals & mining,False,9
+NTPC,N T P C Ltd.,INE733E01010,Power Generation,05-11-2004,Power,False,9
+NATIONALUM,National Aluminium Co. Ltd.,INE139A01034,Aluminium,03-11-1994,Metals & mining,False,9
+NESTLEIND,Nestle India Ltd.,INE239A01024,Packaged Foods,08-11-1994,FMCG,False,8
+OBEROIRLTY,Oberoi Realty Ltd.,INE093I01010,"Residential, Commercial Projects",20-10-2010,Real estate,False,9
+ONGC,Oil & Natural Gas Corpn. Ltd.,INE213A01029,Oil Exploration & Production,09-08-1995,Oil & gas,False,9
+OIL,Oil India Ltd.,INE274J01014,Oil Exploration & Production,30-09-2009,Oil & gas,False,9
+PAYTM,One 97 Communications Ltd.,INE982J01020,Financial Technology (Fintech),18-11-2021,Other,True,0
+OFSS,Oracle Financial Services Software Ltd.,INE881D01027,Software Products,28-06-2002,IT,False,9
+PIIND,P I Industries Ltd.,INE603J01030,Pesticides & Agrochemicals,26-09-1996,Materials & chemicals,False,9
+PAGEIND,Page Industries Ltd.,INE761H01022,Garments & Apparels,16-03-2007,Consumer discretionary,False,9
+PATANJALI,Patanjali Foods Ltd.,INE619A01035,Edible Oil,03-01-1995,FMCG,False,6
+PERSISTENT,Persistent Systems Ltd.,INE262H01021,Computers - Software & Consulting,06-04-2010,IT,False,7
+PHOENIXLTD,Phoenix Mills Ltd.,INE211B01039,"Residential, Commercial Projects",23-04-2007,Real estate,False,9
+PIDILITIND,Pidilite Industries Ltd.,INE318A01026,Specialty Chemicals,29-03-1995,Materials & chemicals,False,9
+POLYCAB,Polycab India Ltd.,INE455K01017,Cables - Electricals,16-04-2019,Capital goods,False,7
+POWERGRID,Power Grid Corpn. Of India Ltd.,INE752E01010,Power - Transmission,05-10-2007,Power,False,9
+PREMIERENE,Premier Energies Ltd.,INE0BS701011,Other Electrical Equipment,03-09-2024,Capital goods,False,1
+PRESTIGE,Prestige Estates Projects Ltd.,INE811K01011,"Residential, Commercial Projects",27-10-2010,Real estate,False,9
+RADICO,Radico Khaitan Ltd.,INE944F01028,Breweries & Distilleries,11-04-1995,FMCG,False,6
+RVNL,Rail Vikas Nigam Ltd.,INE415G01027,Civil Construction,11-04-2019,Capital goods,False,6
+RELIANCE,Reliance Industries Ltd.,INE002A01018,Refineries & Marketing,03-11-1994,Oil & gas,False,9
+SRF,S R F Ltd.,INE647A01010,Specialty Chemicals,01-12-1994,Materials & chemicals,False,9
+MOTHERSON,Samvardhana Motherson Intl. Ltd.,INE775A01035,Auto Components & Equipments,14-08-1996,Auto,False,9
+SIEMENS,Siemens Ltd.,INE003A01024,Heavy Electrical Equipment,03-11-1994,Capital goods,False,9
+SOLARINDS,Solar Industries India Ltd.,INE343H01029,Explosives,03-04-2006,Materials & chemicals,False,9
+SAIL,Steel Authority Of India Ltd.,INE114A01011,Iron & Steel,03-11-1994,Metals & mining,False,9
+SUNPHARMA,Sun Pharmaceutical Inds. Ltd.,INE044A01036,Pharmaceuticals,09-02-1995,Pharma & healthcare,False,9
+SUPREMEIND,Supreme Industries Ltd.,INE195A01028,Plastic Products - Industrial,30-11-1994,Capital goods,False,9
+SUZLON,Suzlon Energy Ltd.,INE040H01021,Heavy Electrical Equipment,19-10-2005,Capital goods,False,3
+SWIGGY,Swiggy Ltd.,INE00H001014,E-Retail/ E-Commerce,13-11-2024,Consumer discretionary,False,1
+TVSMOTOR,T V S Motor Co. Ltd.,INE494B01023,2/3 Wheelers,02-08-2000,Auto,False,9
+TATACOMM,Tata Communications Ltd.,INE151A01013,Telecom - Cellular & Fixed line services,03-11-1994,Telecom & transport,False,6
+TCS,Tata Consultancy Services Ltd.,INE467B01029,Computers - Software & Consulting,25-08-2004,IT,False,9
+TATACONSUM,Tata Consumer Products Ltd.,INE192A01025,Tea & Coffee,09-11-1994,FMCG,False,9
+TMCV,Tata Motors Ltd.,INE1TAE01010,Commercial Vehicles,12-11-2025,Auto,False,0
+TMPV,Tata Motors Passenger Vehicles Ltd.,INE155A01022,Passenger Cars & Utility Vehicles,03-11-1994,Auto,False,9
+TATAPOWER,Tata Power Co. Ltd.,INE245A01021,Integrated Power Utilities,03-11-1994,Power,False,9
+TATASTEEL,Tata Steel Ltd.,INE081A01020,Iron & Steel,03-11-1994,Metals & mining,False,8
+TECHM,Tech Mahindra Ltd.,INE669C01036,Computers - Software & Consulting,28-08-2006,IT,False,9
+TITAN,Titan Company Ltd.,INE280A01028,"Gems, Jewellery And Watches",03-11-1994,Consumer discretionary,False,9
+TORNTPHARM,Torrent Pharmaceuticals Ltd.,INE685A01028,Pharmaceuticals,03-11-1994,Pharma & healthcare,False,9
+TRENT,Trent Ltd.,INE849A01020,Speciality Retail,30-11-1994,Consumer discretionary,False,9
+TIINDIA,Tube Investments Of India Ltd.,INE974X01010,Auto Components & Equipments,02-11-2017,Auto,False,7
+UPL,U P L Ltd.,INE628A01036,Pesticides & Agrochemicals,13-06-1996,Materials & chemicals,False,9
+ULTRACEMCO,Ultratech Cement Ltd.,INE481G01011,Cement & Cement Products,24-08-2004,Materials & chemicals,False,9
+UNITDSPR,United Spirits Ltd.,INE854D01024,Breweries & Distilleries,27-09-2001,FMCG,False,9
+VBL,Varun Beverages Ltd.,INE200M01039,Other Beverages,08-11-2016,FMCG,False,9
+VAML,Vedanta Aluminium Metal Ltd.,INE1CDF01017,,15-06-2026,Metals & mining,False,0
+VEDL,Vedanta Ltd.,INE205A01025,Diversified Metals,09-11-1994,Metals & mining,False,9
+VMM,Vishal Mega Mart Ltd.,INE01EA01019,Diversified Retail,18-12-2024,Consumer discretionary,False,1
+IDEA,Vodafone Idea Ltd.,INE669E01016,Telecom - Cellular & Fixed line services,09-03-2007,Telecom & transport,False,4
+VOLTAS,Voltas Ltd.,INE226A01021,Household Appliances,07-11-1994,Consumer discretionary,False,9
+WAAREEENER,Waaree Energies Ltd.,INE377N01017,Other Electrical Equipment,28-10-2024,Capital goods,False,1
+WIPRO,Wipro Ltd.,INE075A01022,Computers - Software & Consulting,21-12-1994,IT,False,9
+ZYDUSLIFE,Zydus Lifesciences Ltd.,INE010B01027,Pharmaceuticals,27-04-2000,Pharma & healthcare,False,9

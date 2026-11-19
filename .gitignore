@@ -1,0 +1,18 @@
+# Licensed CMIE Prowess and Screener data must not be committed
+data/prowess_raw/*.txt
+pilot_screener/data/raw/*.xlsx
+pilot_screener/data/raw/prices_weekly.*
+# company-level tables derived from licensed data
+outputs/tables/modelling_table.csv
+outputs/tables/walkforward_predictions.csv
+pilot_screener/outputs/tables/modelling_table.csv
+pilot_screener/outputs/tables/walkforward_predictions.csv
+# notebook and LaTeX clutter
+.ipynb_checkpoints/
+__pycache__/
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls

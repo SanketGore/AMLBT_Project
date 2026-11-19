@@ -1,0 +1,6 @@
+hyperparameter,effect_on_cv_rmse,measure
+alpha (L2 penalty),-0.12786885245901644,Spearman rho
+learning rate,0.005223673242567381,Spearman rho
+architecture,0.07926328289882156,range of medians
+activation,0.04432059885371653,range of medians
+optimiser,0.0007365685556678381,range of medians
